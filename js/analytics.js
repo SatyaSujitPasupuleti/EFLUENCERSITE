@@ -1,3 +1,4 @@
+//Uses chart.js library to add in various test charts
 var ctx = document.getElementById('myChart').getContext('2d');
 Chart.defaults.global.defaultFontColor = 'white';
 var chart = new Chart(ctx, {
